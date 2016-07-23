@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<style>
+					/* Prevent FOUC */
+					body { opacity: 0; 
+					 }
+					#xx { height: 200px;
+					width: 91%;
+					margin-left: 12px;
+					}
+.circle {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 1em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  border: 5px solid #eee;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
+}
+				</style>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css" />
+		<link rel="stylesheet" href="./vendor/waves/waves.min.css" />
+		<link rel="stylesheet" href="./vendor/wow/animate.css" />
+		<link rel="stylesheet" href="./css/nativedroid2.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+<script src="./Metierjs/affiche.js"></script>
+
+
+<meta charset="UTF-8">
+<title>A propos</title>
+<script type="text/javascript">
+   $(document).bind("mobileinit",function(){
+		$.mobile.allowCrossDomainPages(true);	
+		});
+   </script>
+</head>
+<body>
+
+<div data-role="page">
+<!-- header for all paris pages-->
+			<nd2-include data-src="./examples/fragments/panel.left.html"></nd2-include>
+                
+			<div data-role="header" data-position="fixed" class="wow fadeIn ui-header ui-bar-inherit ui-header-fixed slidedown" style="visibility: visible; animation-name: fadeIn;">
+			<img class="headerimg" src="./ImageParis/ic_launcher4.png">
+				<a href="#leftpanel" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s' onclick='loadimgdata();' ><i class="zmdi zmdi-menu"></i></a>
+				<h1 class="wow fadeIn" data-wow-delay='0.4s'>ParisLife</h1>
+			</div>
+
+<ul data-role="listview" data-icon="false" id="mybest">
+									<li data-role="list-divider">
+										Les Développeurs
+									</li>
+									
+								</ul>	
+								
+
+<div class="circle" style="background-image: 
+       url('./images/rihane.jpg')">
+</div>
+<h4 class="clr-deep-orange">Nom & Prénom :</h4> <span>Rihane Mohamed Amine</span>
+<h4 class="clr-deep-orange">Tel  : </h4><h4>+21620475276 </h4>
+<h4 class="clr-deep-orange">Mail  :</h4><h4> medamine.rihane@esprit.tn </h4>
+<div class="circle" style="background-image: 
+       url('./images/seif.jpg')">
+</div>
+<h4 class="clr-deep-orange">Nom & Prénom : </h4><span>Ben Abda Seifeddine</span>
+<h4 class="clr-deep-orange">Tel  : </h4><span>+21621451992</span>
+<h4 class="clr-deep-orange">Mail  :</h4><span> seifeddine.benabda@esprit.tn </span>
+</div>
+        <script type="text/javascript" src="./backevent/backevent.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+		<script type="text/javascript" src="./vendor/waves/waves.min.js"></script>
+		<script type="text/javascript" src="./vendor/wow/wow.min.js"></script>
+		<script type="text/javascript" src="./js/nativedroid2.js"></script>
+		<script type="text/javascript" src="./nd2settings.js"></script>
+		<script type="text/javascript" src="./Metierjs/affiche.js"></script>
+		<script type="text/javascript" src="./Metierjs/menu.js"></script>
+		
+		
+		
+</body>
+</html>

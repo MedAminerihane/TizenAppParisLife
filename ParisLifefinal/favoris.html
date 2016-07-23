@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<style>
+					/* Prevent FOUC */
+					body { opacity: 0; 
+					 }
+					#xx { height: 200px;
+					width: 91%;
+					margin-left: 12px;
+					}
+				</style>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css" />
+		<link rel="stylesheet" href="./vendor/waves/waves.min.css" />
+		<link rel="stylesheet" href="./vendor/wow/animate.css" />
+		<link rel="stylesheet" href="./css/nativedroid2.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+<script src="./js/main.js"></script>
+<script src="./Metierjs/affiche.js"></script>
+<script src="./Metierjs/favorite.js"></script>
+
+
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+   $(document).bind("mobileinit",function(){
+		$.mobile.allowCrossDomainPages(true);	
+		});
+   </script>
+</head>
+<body>
+
+<div data-role="page">
+<!-- header for all paris pages-->
+			<nd2-include data-src="./examples/fragments/panel.left.html"></nd2-include>
+                
+			<div data-role="header" data-position="fixed" class="wow fadeIn ui-header ui-bar-inherit ui-header-fixed slidedown" style="visibility: visible; animation-name: fadeIn;">
+			<img class="headerimg" src="./ImageParis/ic_launcher4.png">
+				<a href="#leftpanel" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s' ><i class="zmdi zmdi-menu"></i></a>
+				<h1 class="wow fadeIn" data-wow-delay='0.4s'>ParisLife</h1>
+			</div>
+
+<ul data-role="listview" data-icon="false" id="mybest">
+									<li data-role="list-divider">
+										Mes favoris
+									</li>
+									
+								</ul>	
+								
+
+
+
+</div>
+  
+
+        <script type="text/javascript" src="./backevent/backevent.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+		<script type="text/javascript" src="./vendor/waves/waves.min.js"></script>
+		<script type="text/javascript" src="./vendor/wow/wow.min.js"></script>
+		<script type="text/javascript" src="./js/nativedroid2.js"></script>
+		<script type="text/javascript" src="./nd2settings.js"></script>
+		<script type="text/javascript" type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
+				<script type="text/javascript" src="./Metierjs/loadevent.js"></script>
+						<script type="text/javascript" src="./Metierjs/menu.js"></script>
+				
+		
+		
+</body>
+</html>

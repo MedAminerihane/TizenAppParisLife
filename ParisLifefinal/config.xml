@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/ParisLifeRelook" version="1.0.0" viewmodes="maximized">
+    <access origin="https://www.paris.fr" subdomains="true"></access>
+    <access origin="https://api.paris.fr" subdomains="true"></access>
+    <access origin="*" subdomains="true"></access>
+    <access origin="*" subdomains="true"></access>
+    <access origin="https://googleusercontent.com" subdomains="true"></access>
+    <tizen:application id="UlIxUTP5QH.ParisLife" package="UlIxUTP5QH" required_version="2.3"/>
+    <content src="splash.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="http://tizen.org/feature/location.gps"/>
+    <icon src="ic_launcherico.png" height="117" width="117"/>
+    <name>ParisLife</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:privilege name="http://tizen.org/privilege/location"/>
+    <tizen:privilege name="http://tizen.org/privilege/call"/>
+    <tizen:profile name="mobile"/>
+    <tizen:setting screen-orientation="portrait" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+</widget>
